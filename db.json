@@ -2,16 +2,39 @@
   "questions": [
     {
       "id": 1,
-      "topic": "Python",
-      "question": "What is Python primarily used for?",
-      "answer": "Python is used for web development, data analysis, artificial intelligence, and scientific computing.",
+      "topic": "csharp",
+      "question": "What is C# primarily used for?",
+      "answer": "All of the above",
       "options": [
         "Web development",
-        "Data analysis",
-        "Artificial intelligence",
+        "Game development",
+        "Mobile app development",
         "All of the above"
-      ],
-      "correctAnswer": 3
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "cplusplus",
+      "question": "What is the primary advantage of C++ over C?",
+      "answer": "More efficient",
+      "options": [
+        "More secure",
+        "More efficient",
+        "Object-oriented programming support",
+        "Platform independence"
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "ruby",
+      "question": "What is Ruby primarily used for?",
+      "answer": "Web development",
+      "options": [
+        "Web development",
+        "System programming",
+        "Mobile app development",
+        "Game development"
+      ]
     }
   ]
 }
