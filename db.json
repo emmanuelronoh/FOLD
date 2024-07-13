@@ -1,14 +1,17 @@
 {
   "questions": [
     {
-      "id": "21c7",
-      "question": "What is c#?",
-      "answer": "C# is a modern, general-purpose programming language developed by Microsoft. It is widely used for building applications on the .NET framework."
-    },
-    {
-      "id": "643d",
-      "question": "What is c#?",
-      "answer": "C# is a modern, general-purpose programming language developed by Microsoft. It is widely used for building applications on the .NET framework."
+      "id": 1,
+      "topic": "Python",
+      "question": "What is Python primarily used for?",
+      "answer": "Python is used for web development, data analysis, artificial intelligence, and scientific computing.",
+      "options": [
+        "Web development",
+        "Data analysis",
+        "Artificial intelligence",
+        "All of the above"
+      ],
+      "correctAnswer": 3
     }
   ]
 }

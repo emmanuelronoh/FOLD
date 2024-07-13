@@ -30,14 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
         let info;
 
         switch (topic) {
-            case 'c#':
-                info = "C# is a modern, general-purpose programming language developed by Microsoft. It is widely used for building applications on the .NET framework.";
-                break;
-            case 'c++':
-                info = "C++ is a powerful, general-purpose programming language created as an extension of the C programming language. It is used for system/application software, game development, drivers, and more.";
-                break;
-            case 'ruby':
-                info = "Ruby is a dynamic, reflective, object-oriented programming language known for its simplicity and productivity. It is used primarily for web development and prototyping.";
+            case 'python':
+                info = "Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms and is widely used for web development, data analysis, AI, scientific computing, and automation.";
+            case 'Java':
+                info = "Java is a versatile, object-oriented programming language known for its platform independence and robustness. It's widely used for building enterprise-scale applications, mobile apps (Android), web servers, and more.";
                 break;
             case 'questions':
                 info = "This section is for creating and managing quiz questions. Functionality for this feature will be implemented separately.";
