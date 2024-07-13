@@ -1,0 +1,110 @@
+/* CSS (style.css) */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header h1 {
+    margin: 0 auto;
+}
+
+.cse {
+    margin-left: auto;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 80px; /* Adjust this if header height changes */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    height: calc(100vh - 80px); /* Adjust this if header height changes */
+    overflow-y: auto;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #007BFF;
+}
+
+.sidebar ul li:hover {
+    text-decoration: underline;
+}
+
+#infoDisplay {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.quiz-form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.quiz-form h2 {
+    margin-bottom: 10px;
+}
+
+.quiz-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.quiz-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.quiz-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.quiz-form button:hover {
+    background-color: #0056b3;
+}
+

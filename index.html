@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Programming Topics</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To Phase 3. Teachers are Allowed to Add more Questions</h1>
+        <div class="cse">
+            <script async src="https://cse.google.com/cse.js?cx=a565ddf04cb6447c2"></script>
+            <div class="gcse-search"></div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <h2>Tutorial Menu</h2>
+            <ul>
+                <li data-topic="c#">C#</li>
+                <li data-topic="c++">C++</li>
+                <li data-topic="ruby">Ruby</li>
+                <li data-topic="questions">Questions</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Topic Information</h2>
+            <div id="infoDisplay">Click on a topic to see information here.</div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="teacherForm">
+            <h2>Teacher's Panel - Add Question</h2>
+            <form id="addQuestionForm">
+                <label for="question">Question:</label>
+                <input type="text" id="question" name="question" required><br><br>
+
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer" name="answer" required><br><br>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic" required>
+                    <option value="csharp">C#</option>
+                    <option value="cplusplus">C++</option>
+                    <option value="ruby">Ruby</option>
+                </select><br><br>
+
+                <button type="submit">Add Question</button>
+            </form>
+        </div>
+
+        <div id="studentForm">
+            <h2>Student's Panel - Answer Question</h2>
+            <form id="answerQuestionForm">
+                <label for="studentAnswer">Your Answer:</label>
+                <input type="text" id="studentAnswer" name="studentAnswer" required><br><br>
+
+                <button type="submit">Submit Answer</button>
+            </form>
+        </div>
+
+        <div id="quizDisplay">
+            Questions and answers will be displayed here
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
